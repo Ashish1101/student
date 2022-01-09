@@ -49,6 +49,9 @@ class Student {
     @prop({type : () => Number})
     public fees?: number
 
+    @prop({type : () => String})
+    public instituteId?: string
+
     // @prop({type: () => [String]})
     // public subjectTags? : string[]
 }

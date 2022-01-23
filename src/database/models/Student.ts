@@ -56,5 +56,5 @@ class Student {
     // public subjectTags? : string[]
 }
 
-const StudentModel = getModelForClass(Student);
+const StudentModel = getModelForClass(Student , {schemaOptions : {timestamps : true}});
 export default StudentModel
